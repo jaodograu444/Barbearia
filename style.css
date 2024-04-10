@@ -1,10 +1,22 @@
+#banner {
+  width:  100%;
+}
+
 p {
        text-align: center;
 }
-
 h1 {
   text-align: center;
 }
 #missão {
   font-size: 20px;
+}
+ em strong {
+  color: red;
+ } 
+body {
+  backgroud-color: #CCCCCC;
+}
+.item {
+  font-style: italic;
 }
