@@ -14,9 +14,34 @@ h1 {
  em strong {
   color: red;
  } 
-body {
-  backgroud-color: #CCCCCC;
+
+.principal {
+  background-color: #CCCCCC;
+  padding: 30px;
 }
+
+.beneficios {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+
+h2{
+  text-align: center ;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
 .item {
   font-style: italic;
 }
+
+.imagem-beneficios {
+  width: 50%;
+}
+
