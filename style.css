@@ -5,9 +5,7 @@
 p {
        text-align: center;
 }
-h1 {
-  text-align: center;
-}
+
 #missão {
   font-size: 20px;
 }
@@ -25,9 +23,13 @@ h1 {
   padding: 20px;
 }
 
+.texto-centralizado {
+  text-align: center;
+}
 
-h2{
-  text-align: center ;
+.titulo-principal {
+  text-align: center;
+  padding-left: 20px;
 }
 
 ul {
