@@ -6,7 +6,7 @@ body{
 }
 
 header {
-  background-color: #bbbbbb;
+  background-color: #ffffff;
   padding: 20px 0;
 }
 
@@ -118,9 +118,7 @@ footer{
     margin-bottom: 10 px;
   }
   
-main {
-  
-}
+
 
   .checkbox {
     margin: 20px 0;
@@ -154,14 +152,14 @@ main {
   font-style: italic;
 }
 
-.ut {
+img {
   width: 120px;
   float: left;
   margin: 0 20px 20xp 0;
 }
 
 thead{
-  background: #555555;
+  background: #55555;
   color: #FFFFFF;
   font-weight: bold;
     }
@@ -199,7 +197,7 @@ margin-bottom: 10px;
   padding: 3em 0;
   width: 940px;
   margin: 0 auto;
-  backgroud: linear-gradient(#FEFEFE, #888888);
+  background: linear-gradient(#FEFEFE, #838181);
 }
 
 .mapa p{
@@ -221,7 +219,7 @@ margin-bottom: 10px;
 
 .beneficios {
   padding: 3em 0;
-  background: #888888;
+  background: white;
   width: 940px;
   margin: 0 auto;
 }
@@ -233,10 +231,35 @@ margin-bottom: 10px;
 }
 
 .imagem-beneficios{
-  width: 50%;
+ margin-right:200px ;
+  
 }
 
 .mapa-conteudo{
   width: 940px;
   margin: 0 auto;
 } 
+
+.titulo-principal:first-letter{
+  color: red;
+}
+p:first-line{
+  font-style: italic;
+  
+}
+
+.titulo-principal:before{
+  content: "[";
+}
+
+.titulo-principal:after{
+  content: "]";
+} 
+
+.item:before{
+  content: "★"; 
+}
+
+.item:first-child{
+  font-weight: bold;
+}
