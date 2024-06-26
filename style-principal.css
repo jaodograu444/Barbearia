@@ -138,6 +138,7 @@ footer{
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  color: rgb(0, 0, 0, 0.4)
 }
 
 
@@ -231,8 +232,9 @@ margin-bottom: 10px;
 }
 
 .imagem-beneficios{
- margin-right:200px ;
-  
+ width: 50%;
+  opacity: 0.6;
+  transition: 1s;
 }
 
 .mapa-conteudo{
@@ -262,4 +264,24 @@ p:first-line{
 
 .item:first-child{
   font-weight: bold;
+}
+
+main > p{
+  background: red;
+}
+
+img + p{
+  background: blue;
+}
+
+img ~ p{
+  background: green;
+}
+
+principal p:not(#missao){
+  background: orange;
+}
+
+imagem-beneficios:houver{
+  opacity: 1;
 }
